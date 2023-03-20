@@ -1,7 +1,7 @@
 """
     Here we can test the entire application.
 """
-policy_server_url = "http://130.240.200.92:8001"
+policy_server_url = "http://127.0.0.1:8001"
 # from NGAC.test_ngac import *
 
 

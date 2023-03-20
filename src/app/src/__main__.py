@@ -15,7 +15,7 @@ def url(path, args):
     if args and args.url:
         return f"http://{args.url}:{args.port}{path}"
     else:
-        return f"http://localhost:5000{path}"
+        return f"http://localhost:5001{path}"
 
 
 def handle_read(args):
