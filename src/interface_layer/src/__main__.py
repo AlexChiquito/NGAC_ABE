@@ -60,7 +60,7 @@ app.register_blueprint(admin)
 # Set up the NGAC
 with open(cfg["NGAC"]["admin_token"], "r") as f:
     admin_token = f.read()
-ngac = NGAC(token=admin_token, policy_server_url="http://127.0.0.1:8001")
+    ngac = NGAC(token=admin_token, policy_server_url=cfg["ABE"]["url"])
 # ------------------------------
 
 
